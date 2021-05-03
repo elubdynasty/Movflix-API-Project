@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movflix</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <h1>Welcome to Movflix</h1>
+
+    <div>
+        <img src="/images/photo-1460881680858-30d872d5b530.jpg" alt="thatmovie">
+    </div>
+
+
+    <div class="movielistwrapper">
+        <main></main>
+    </div>
+
+
+    <div class="add-movie-wrapper">
+
+        <div class="addmov">
+            <p>Add Here! 🎞🎉</p>
+        </div>
+        <div class="form">
+
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title" placeholder="Title">
+            </div>
+        
+            <div class="form-group">
+                <label for="rating">Rating</label>
+                <input type="text" name="rating" id="rating" placeholder="Rating">
+            </div>
+        
+            <div class="form-group">
+                <label for="leading_role">Leading Role</label>
+                <input type="text" name="leading_role" id="leading_role" placeholder="Leading Role">
+            </div>
+
+            <div class="form-group">
+                <label for="release_year">Release Year</label>
+                <input type="number" name="release_year" id="release_year" placeholder="Release Year">
+            </div>
+        
+            <div class="center-btn-wrapper">
+                <button type="submit" class="addmovie">Submit</button>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+
+    <div class ="update-movie-wrapper">
+
+        <div class="updatemov">
+            <p>Update Here! ✨</p>
+        </div>
+
+        <div class="update-form">
+            <div class="form-group">
+                <label for="updatetitle">Title</label>
+                <input type="text" name="updatetitle" id="updatetitle" placeholder="Updated Title">
+            </div>
+        
+            <div class="form-group">
+                <label for="updaterating">Rating</label>
+                <input type="text" name="updaterating" id="updaterating" placeholder="Updated Rating">
+            </div>
+        
+            <div class="form-group">
+                <label for="updateleading_role">Leading Role</label>
+                <input type="text" name="updateleading_role" id="updateleading_role" placeholder="Updated Leading Role">
+            </div>
+        
+            <div class="form-group">
+                <label for="updaterelease_year">Release Year</label>
+                <input type="number" name="updaterelease_year" id="updaterelease_year" placeholder="Updated Release Year">
+            </div>
+        
+            <div class="center-btn-wrapper">
+                <br>
+                <button type="submit" class="updatemovie">Submit</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./src/scripts/app.js"></script>
+</html>
